@@ -1,1 +1,2 @@
 type hal_displayfeature_xiaomi_default, domain;
+type hal_displayfeature_xiaomi_default_exec, exec_type, vendor_file_type, file_type;

@@ -145,6 +145,7 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
 TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
 
 # Sepolicy
+SELINUX_IGNORE_NEVERALLOWS := true
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
     $(DEVICE_PATH)/sepolicy/private \
     device/qcom/sepolicy/generic/private \
